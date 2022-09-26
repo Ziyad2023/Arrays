@@ -13,5 +13,9 @@ public class Arrays
         }
         for (int h = 0; h < array.length; h++) {
             System.out.print(array[h]);
+            if (h < part2) {
+                System.out.print("-");
+            }
         }
     }
+}
